@@ -36,6 +36,7 @@
     background-color: #474747;
   }
   footer {
+    display: none;
     grid-column: 1/3;
     grid-row: 3/4;
     background-color: #86b0cc;
