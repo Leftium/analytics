@@ -1,20 +1,5 @@
 <script lang="coffeescript">
-  export name = null
 
-  ## Counter sample based on https://svelte.dev/tutorial/reactive-statements
-  count = 0
- 
-  ## Mark Svelte reactive CoffeeScript statements by escaping out to JavaScript.
-  ## (Normally CoffeeScript syntax is incompatible with Svelte Reactive statements.)
-
-  `$: {`  ## Start Svelte reactive block.
-  if count >= 10
-    alert 'count is dangerously high!'
-    count = 9
-  `}`     ## End reactive block.
-
-  handleClick = () ->
-    count += 1
 </script>
 
 <template lang="pug">
@@ -24,14 +9,7 @@
     aside
       div ASIDE
     main
-      h1 Hello {name}!
-      p.
-        Visit the #[a(href='https://svelte.dev/tutorial') Svelte tutorial]
-        to learn how to build Svelte apps.
-
-      // How reactive buttons are done in Svelte + Pug.
-      // Note CoffeeScript cannot be used here.
-      button(on:click='{handleClick}') Clicked {count} {count === 1 ? 'time' : 'times'}
+      iframe(title='datagrid' width="100%" height="100%" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=E583A51B21433AB8%213559&authkey=%21AANta_hOSePl5O8&em=2&wdInConfigurator=True")
     footer
       div FOOTER
 </template>
