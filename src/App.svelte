@@ -5,7 +5,10 @@
 <template lang="pug">
   div.grid-wrapper
     header
-      div HEADER
+      div.logo
+        img(src='/img/header-logo.png' alt='logo')
+        span &nbsp;Analytics
+      img(src='/img/header-menu.png' alt='menu')
     aside
       div ASIDE
     main
@@ -30,7 +33,7 @@
   header {
     grid-column: 1/3;
     grid-row: 1/2;
-    background-color: #4c7c9b;
+    background-color: #474747;
   }
   footer {
     grid-column: 1/3;
@@ -41,5 +44,23 @@
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: #c1e7ff;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  header span {
+    font-size: xx-large;
+    font-weight: 380;
+    text-transform: uppercase;
+    color: white;
   }
 </style>
