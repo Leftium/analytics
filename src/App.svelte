@@ -62,7 +62,7 @@
 
 
     main
-      iframe(title='datagrid' width="100%" height="100%" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=E583A51B21433AB8%213559&authkey=%21AANta_hOSePl5O8&em=2&wdInConfigurator=True")
+      iframe(title='datagrid' width="100%" height="100%" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=E583A51B21433AB8%213559&authkey=%21AANta_hOSePl5O8&em=2&wdInConfigurator=True&wdDownloadButton=True")
     footer
       div FOOTER
 </template>
