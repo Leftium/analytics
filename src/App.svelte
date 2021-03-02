@@ -15,6 +15,15 @@
         button Import
         span Last imported 3 days ago.
       button Lifetime: Aug 1, 2019 - Feb 28, 2021 &#9660;
+      div.timezone-currency
+        span
+          label Timezone&nbsp;
+          select
+            option PST
+        span
+          label Currency&nbsp;
+          select
+            option USD
       fieldset
         legend View
         div: label
@@ -50,15 +59,6 @@
         legend Selected
         div: button Relative Growth Chart
         div: button Unselect All
-      div.timezone-currency
-        span
-          label Timezone&nbsp;
-          select
-            option PST
-        span
-          label Currency&nbsp;
-          select
-            option USD
 
 
     main
